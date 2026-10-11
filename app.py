@@ -74,9 +74,8 @@ with st.form("session_form"):
         )
         month = st.selectbox(
             "Month",
-            ["Jan", "Feb", "Mar", "May", "June", "Jul",
+            ["Feb", "Mar", "May", "June", "Jul",
              "Aug", "Sep", "Oct", "Nov", "Dec"]
-        )
         operating_system = st.number_input(
             "Operating system code", min_value=1, value=2
         )
