@@ -76,6 +76,7 @@ with st.form("session_form"):
             "Month",
             ["Feb", "Mar", "May", "June", "Jul",
              "Aug", "Sep", "Oct", "Nov", "Dec"]
+        )
         operating_system = st.number_input(
             "Operating system code", min_value=1, value=2
         )
