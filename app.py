@@ -123,7 +123,7 @@ if submitted:
         response = requests.post(
             f"{API_URL}/predict",
             json=payload,
-            timeout=10,
+            timeout=60,
         )
         response.raise_for_status()
         result = response.json()
