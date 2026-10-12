@@ -8,6 +8,12 @@ ShopSense is an end-to-end machine learning project that predicts whether an onl
 
 **Prediction API:** [ShopSense API](https://shopsense-api-94dm.onrender.com)
 
+## Project Documentation
+
+- [Business Requirements](docs/business_requirements.md)
+- [Data Understanding](docs/data_understanding.md)
+- [Data Validation](docs/data_validation.md)
+ 
 ## Business Problem
 
 E-commerce businesses want to understand which browsing sessions are associated with purchases. A purchase-intention model can support exploratory analysis of visitor behavior and inform future marketing and personalization experiments.
